@@ -72,8 +72,16 @@
 ### Not Readable via JetBrains TMS in IntelliJ IDEA
 - [Bugs found](./tms/Bugs.md)
 
-### Additional Testing not considered for this exercise
+## Additional Testing not considered for this exercise
 - Performance Testing
 - Accessibility Testing
 - Security Testing
 - Deployment Testing
+
+## I tried but I think the maven dependency is too far gone
+> The dependency to produce the Step Usage Report I mentioned during the first interview hasn't been maintained for a long time.
+> Most likely as a result of the usage plugin being broken in Cucumber7.
+> 
+> Thsi is what it would have looked like. 
+
+![CucumberUsageReport](./images/usage-report.png)
