@@ -1,2 +1,0 @@
-file:src/test/resources/features/SellCookies.feature:14:18:19:20:21
-file:src/test/resources/features/BuyFactories.feature:21:22
