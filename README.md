@@ -60,3 +60,11 @@
 - [Cucumber Results JSON](./target/cucumber/results.json)
 - [Cucumber Rerun File](./target/cucumber/rerun.txt)
 - [Cucumber Usage JSON](./target/cucumber/usage.json)
+
+## TMS
+### Readable via JetBrains TMS in IntelliJ IDEA
+- [Manual Tests](./tms/ManualTests.t.md)
+- [Automated Tests](./tms/AutomatedTests.t.md)
+
+### Not Readable via JetBrains TMS in IntelliJ IDEA
+- [Bugs found](./tms/Bugs.md)
