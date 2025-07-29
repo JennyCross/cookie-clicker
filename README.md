@@ -6,7 +6,7 @@
 > JUnit4 was used instead of JUnit5 because of compatibility issues with Maven which cause tests to run twice.
 
 ## Prerequisites
-- Java 21
+- Java 21 (LTS)
 - Maven
 
 ## Features Implemented
@@ -42,6 +42,9 @@
 
 ## Playwright
 
+> Playwright was used because it provides easy automation of web pages out of the box with built in waits and driver management.
+> It also provides superior tools to help develop a test suite and maintain it.
+
 ### Page Inspector
 ```Bash
   ./mvnw exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="codegen Jenny-Cross-2025-07-22.cookieclickertechtest.airelogic.com"
@@ -68,3 +71,9 @@
 
 ### Not Readable via JetBrains TMS in IntelliJ IDEA
 - [Bugs found](./tms/Bugs.md)
+
+### Additional Testing not considered for this exercise
+- Performance Testing
+- Accessibility Testing
+- Security Testing
+- Deployment Testing

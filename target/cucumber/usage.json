@@ -5,104 +5,104 @@
       {
         "name": "Open Cookie Clicker App",
         "aggregatedDurations": {
-          "median": 0.0912715,
-          "average": 0.101752958
+          "median": 0.092172,
+          "average": 0.095520583
         },
         "durations": [
           {
-            "duration": 0.156458,
+            "duration": 0.140861,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:4"
           },
           {
-            "duration": 0.088208,
+            "duration": 0.081683,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:4"
           },
           {
-            "duration": 0.092027,
+            "duration": 0.088614,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:4"
           },
           {
-            "duration": 0.085955,
+            "duration": 0.106494,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:4"
           },
           {
-            "duration": 0.091368,
+            "duration": 0.116227,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:4"
           },
           {
-            "duration": 0.091962,
+            "duration": 0.081667,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:4"
           },
           {
-            "duration": 0.098807,
+            "duration": 0.096132,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:4"
           },
           {
-            "duration": 0.099891,
+            "duration": 0.098189,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:4"
           },
           {
-            "duration": 0.098824,
+            "duration": 0.082369,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/ClickCookies.feature:3"
           },
           {
-            "duration": 0.129295,
+            "duration": 0.092888,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/ClickCookies.feature:3"
           },
           {
-            "duration": 0.08879,
+            "duration": 0.07578,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/ClickCookies.feature:3"
           },
           {
-            "duration": 0.083755,
+            "duration": 0.098811,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/ClickCookies.feature:3"
           },
           {
-            "duration": 0.087435,
+            "duration": 0.083142,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/ClickCookies.feature:3"
           },
           {
-            "duration": 0.091975,
+            "duration": 0.091935,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/ClickCookies.feature:3"
           },
           {
-            "duration": 0.082638,
+            "duration": 0.104158,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/ClickCookies.feature:3"
           },
           {
-            "duration": 0.087336,
+            "duration": 0.087302,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/ClickCookies.feature:3"
           },
           {
-            "duration": 0.091175,
+            "duration": 0.109933,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:3"
           },
           {
-            "duration": 0.089099,
+            "duration": 0.09223,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:3"
           },
           {
-            "duration": 0.250941,
+            "duration": 0.084432,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:3"
           },
           {
-            "duration": 0.104811,
+            "duration": 0.087755,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:3"
           },
           {
-            "duration": 0.096237,
+            "duration": 0.092114,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:3"
           },
           {
-            "duration": 0.084887,
+            "duration": 0.095287,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:3"
           },
           {
-            "duration": 0.087653,
+            "duration": 0.118417,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:3"
           },
           {
-            "duration": 0.082544,
+            "duration": 0.086074,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:3"
           }
         ]
@@ -115,104 +115,104 @@
       {
         "name": "Cookies have been cleared",
         "aggregatedDurations": {
-          "median": 0.0010125,
-          "average": 0.001042291
+          "median": 0.0010495,
+          "average": 0.001175166
         },
         "durations": [
           {
-            "duration": 0.001634,
+            "duration": 0.00132,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:5"
           },
           {
-            "duration": 0.001163,
+            "duration": 0.001264,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:5"
           },
           {
-            "duration": 8.91E-4,
+            "duration": 0.001038,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:5"
           },
           {
-            "duration": 0.001005,
+            "duration": 9.98E-4,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:5"
           },
           {
-            "duration": 0.001261,
+            "duration": 9.67E-4,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:5"
           },
           {
-            "duration": 0.00102,
+            "duration": 0.0011,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:5"
           },
           {
-            "duration": 0.001047,
+            "duration": 9.47E-4,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:5"
           },
           {
-            "duration": 0.001064,
+            "duration": 0.001418,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:5"
           },
           {
-            "duration": 9.62E-4,
+            "duration": 0.001078,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/ClickCookies.feature:4"
           },
           {
-            "duration": 8.96E-4,
+            "duration": 0.001044,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/ClickCookies.feature:4"
           },
           {
-            "duration": 0.001033,
+            "duration": 9.71E-4,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/ClickCookies.feature:4"
           },
           {
-            "duration": 0.001066,
+            "duration": 0.00105,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/ClickCookies.feature:4"
           },
           {
-            "duration": 9.58E-4,
+            "duration": 0.001128,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/ClickCookies.feature:4"
           },
           {
-            "duration": 0.001139,
+            "duration": 0.001173,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/ClickCookies.feature:4"
           },
           {
-            "duration": 9.15E-4,
+            "duration": 0.002997,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/ClickCookies.feature:4"
           },
           {
-            "duration": 9.25E-4,
+            "duration": 0.001032,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/ClickCookies.feature:4"
           },
           {
-            "duration": 0.001004,
+            "duration": 0.001049,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:4"
           },
           {
-            "duration": 9.32E-4,
+            "duration": 9.49E-4,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:4"
           },
           {
-            "duration": 0.001066,
+            "duration": 0.001052,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:4"
           },
           {
-            "duration": 9.89E-4,
+            "duration": 0.00105,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:4"
           },
           {
-            "duration": 9.6E-4,
+            "duration": 0.001015,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:4"
           },
           {
-            "duration": 9.37E-4,
+            "duration": 9.23E-4,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:4"
           },
           {
-            "duration": 0.001028,
+            "duration": 0.001721,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:4"
           },
           {
-            "duration": 0.00112,
+            "duration": 9.2E-4,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:4"
           }
         ]
@@ -225,20 +225,20 @@
       {
         "name": "Gill starts a game",
         "aggregatedDurations": {
-          "median": 0.143353,
-          "average": 0.134494
+          "median": 0.131291,
+          "average": 0.125831666
         },
         "durations": [
           {
-            "duration": 0.143353,
+            "duration": 0.108048,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:8"
           },
           {
-            "duration": 0.150396,
+            "duration": 0.131291,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/ClickCookies.feature:7"
           },
           {
-            "duration": 0.109733,
+            "duration": 0.138156,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:7"
           }
         ]
@@ -246,20 +246,20 @@
       {
         "name": "Bob starts a game",
         "aggregatedDurations": {
-          "median": 0.141904,
-          "average": 0.140569
+          "median": 0.136261,
+          "average": 0.135585333
         },
         "durations": [
           {
-            "duration": 0.152284,
+            "duration": 0.128474,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:8"
           },
           {
-            "duration": 0.127519,
+            "duration": 0.136261,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/ClickCookies.feature:7"
           },
           {
-            "duration": 0.141904,
+            "duration": 0.142021,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:7"
           }
         ]
@@ -267,20 +267,20 @@
       {
         "name": "Frank starts a game",
         "aggregatedDurations": {
-          "median": 0.134091,
-          "average": 0.128747666
+          "median": 0.131207,
+          "average": 0.130136333
         },
         "durations": [
           {
-            "duration": 0.101945,
+            "duration": 0.135188,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:8"
           },
           {
-            "duration": 0.134091,
+            "duration": 0.124014,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/ClickCookies.feature:7"
           },
           {
-            "duration": 0.150207,
+            "duration": 0.131207,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:7"
           }
         ]
@@ -288,20 +288,20 @@
       {
         "name": "Julie starts a game",
         "aggregatedDurations": {
-          "median": 0.134837,
-          "average": 0.135930666
+          "median": 0.140362,
+          "average": 0.135810333
         },
         "durations": [
           {
-            "duration": 0.107997,
+            "duration": 0.122682,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:8"
           },
           {
-            "duration": 0.164958,
+            "duration": 0.144387,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/ClickCookies.feature:7"
           },
           {
-            "duration": 0.134837,
+            "duration": 0.140362,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:7"
           }
         ]
@@ -309,20 +309,20 @@
       {
         "name": "Spencer starts a game",
         "aggregatedDurations": {
-          "median": 0.137058,
-          "average": 0.138372
+          "median": 0.134192,
+          "average": 0.137983666
         },
         "durations": [
           {
-            "duration": 0.141882,
+            "duration": 0.130767,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:8"
           },
           {
-            "duration": 0.137058,
+            "duration": 0.148992,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/ClickCookies.feature:7"
           },
           {
-            "duration": 0.136176,
+            "duration": 0.134192,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:7"
           }
         ]
@@ -330,20 +330,20 @@
       {
         "name": "Mary starts a game",
         "aggregatedDurations": {
-          "median": 0.14697,
-          "average": 0.141942666
+          "median": 0.139348,
+          "average": 0.143077333
         },
         "durations": [
           {
-            "duration": 0.148767,
+            "duration": 0.139348,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:8"
           },
           {
-            "duration": 0.130091,
+            "duration": 0.158827,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/ClickCookies.feature:7"
           },
           {
-            "duration": 0.14697,
+            "duration": 0.131057,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:7"
           }
         ]
@@ -351,20 +351,20 @@
       {
         "name": "Heather starts a game",
         "aggregatedDurations": {
-          "median": 0.13494,
-          "average": 0.138404666
+          "median": 0.14453,
+          "average": 0.147945666
         },
         "durations": [
           {
-            "duration": 0.13494,
+            "duration": 0.125682,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:8"
           },
           {
-            "duration": 0.1486,
+            "duration": 0.14453,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/ClickCookies.feature:7"
           },
           {
-            "duration": 0.131674,
+            "duration": 0.173625,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:7"
           }
         ]
@@ -372,20 +372,20 @@
       {
         "name": "Jason starts a game",
         "aggregatedDurations": {
-          "median": 0.143714,
-          "average": 0.141230666
+          "median": 0.131723,
+          "average": 0.130150333
         },
         "durations": [
           {
-            "duration": 0.143714,
+            "duration": 0.133997,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:8"
           },
           {
-            "duration": 0.128359,
+            "duration": 0.131723,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/ClickCookies.feature:7"
           },
           {
-            "duration": 0.151619,
+            "duration": 0.124731,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:7"
           }
         ]
@@ -398,20 +398,20 @@
       {
         "name": "the cookie is clicked 1 times",
         "aggregatedDurations": {
-          "median": 0.031256,
-          "average": 0.033502333
+          "median": 0.031079,
+          "average": 0.037744
         },
         "durations": [
           {
-            "duration": 0.031256,
+            "duration": 0.052643,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:9"
           },
           {
-            "duration": 0.016173,
+            "duration": 0.031079,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/ClickCookies.feature:8"
           },
           {
-            "duration": 0.053078,
+            "duration": 0.02951,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:8"
           }
         ]
@@ -419,20 +419,20 @@
       {
         "name": "the cookie is clicked 5 times",
         "aggregatedDurations": {
-          "median": 0.162247,
-          "average": 0.159488333
+          "median": 0.156925,
+          "average": 0.158477
         },
         "durations": [
           {
-            "duration": 0.15064,
+            "duration": 0.16488,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:9"
           },
           {
-            "duration": 0.162247,
+            "duration": 0.156925,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/ClickCookies.feature:8"
           },
           {
-            "duration": 0.165578,
+            "duration": 0.153626,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:8"
           }
         ]
@@ -440,20 +440,20 @@
       {
         "name": "the cookie is clicked 10 times",
         "aggregatedDurations": {
-          "median": 0.330236,
-          "average": 0.335117
+          "median": 0.331262,
+          "average": 0.330185666
         },
         "durations": [
           {
-            "duration": 0.353746,
+            "duration": 0.326851,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:9"
           },
           {
-            "duration": 0.321369,
+            "duration": 0.332444,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/ClickCookies.feature:8"
           },
           {
-            "duration": 0.330236,
+            "duration": 0.331262,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:8"
           }
         ]
@@ -461,20 +461,20 @@
       {
         "name": "the cookie is clicked 15 times",
         "aggregatedDurations": {
-          "median": 0.496403,
-          "average": 0.502695666
+          "median": 0.489211,
+          "average": 0.491639666
         },
         "durations": [
           {
-            "duration": 0.523356,
+            "duration": 0.501106,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:9"
           },
           {
-            "duration": 0.488328,
+            "duration": 0.484602,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/ClickCookies.feature:8"
           },
           {
-            "duration": 0.496403,
+            "duration": 0.489211,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:8"
           }
         ]
@@ -482,20 +482,20 @@
       {
         "name": "the cookie is clicked 20 times",
         "aggregatedDurations": {
-          "median": 0.654983,
-          "average": 0.656244666
+          "median": 0.655562,
+          "average": 0.655754333
         },
         "durations": [
           {
-            "duration": 0.660274,
+            "duration": 0.662698,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:9"
           },
           {
-            "duration": 0.653477,
+            "duration": 0.649003,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/ClickCookies.feature:8"
           },
           {
-            "duration": 0.654983,
+            "duration": 0.655562,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:8"
           }
         ]
@@ -503,20 +503,20 @@
       {
         "name": "the cookie is clicked 25 times",
         "aggregatedDurations": {
-          "median": 0.830686,
-          "average": 0.828526333
+          "median": 0.8291,
+          "average": 0.829435
         },
         "durations": [
           {
-            "duration": 0.823179,
+            "duration": 0.828114,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:9"
           },
           {
-            "duration": 0.830686,
+            "duration": 0.8291,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/ClickCookies.feature:8"
           },
           {
-            "duration": 0.831714,
+            "duration": 0.831091,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:8"
           }
         ]
@@ -524,20 +524,20 @@
       {
         "name": "the cookie is clicked 30 times",
         "aggregatedDurations": {
-          "median": 0.998694,
-          "average": 0.996069
+          "median": 0.997653,
+          "average": 0.994685
         },
         "durations": [
           {
-            "duration": 1.001076,
+            "duration": 0.997653,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:9"
           },
           {
-            "duration": 0.988437,
+            "duration": 1.002008,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/ClickCookies.feature:8"
           },
           {
-            "duration": 0.998694,
+            "duration": 0.984394,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:8"
           }
         ]
@@ -545,20 +545,20 @@
       {
         "name": "the cookie is clicked 35 times",
         "aggregatedDurations": {
-          "median": 1.161903,
-          "average": 1.158612333
+          "median": 1.162801,
+          "average": 1.163095333
         },
         "durations": [
           {
-            "duration": 1.161903,
+            "duration": 1.161993,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:9"
           },
           {
-            "duration": 1.164323,
+            "duration": 1.162801,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/ClickCookies.feature:8"
           },
           {
-            "duration": 1.149611,
+            "duration": 1.164492,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:8"
           }
         ]
@@ -571,12 +571,12 @@
       {
         "name": "they sell 0 cookies",
         "aggregatedDurations": {
-          "median": 0.031897,
-          "average": 0.031897
+          "median": 0.032487,
+          "average": 0.032487
         },
         "durations": [
           {
-            "duration": 0.031897,
+            "duration": 0.032487,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:10"
           }
         ]
@@ -584,24 +584,24 @@
       {
         "name": "they sell 12 cookies",
         "aggregatedDurations": {
-          "median": 0.0342955,
-          "average": 0.03362425
+          "median": 0.033513,
+          "average": 0.03359125
         },
         "durations": [
           {
-            "duration": 0.034687,
+            "duration": 0.035101,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:10"
           },
           {
-            "duration": 0.035004,
+            "duration": 0.033177,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:10"
           },
           {
-            "duration": 0.030902,
+            "duration": 0.032238,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:10"
           },
           {
-            "duration": 0.033904,
+            "duration": 0.033849,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:10"
           }
         ]
@@ -609,20 +609,20 @@
       {
         "name": "they sell 24 cookies",
         "aggregatedDurations": {
-          "median": 0.033445,
-          "average": 0.033555333
+          "median": 0.03337,
+          "average": 0.033399666
         },
         "durations": [
           {
-            "duration": 0.033445,
+            "duration": 0.03337,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:10"
           },
           {
-            "duration": 0.032646,
+            "duration": 0.03273,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:10"
           },
           {
-            "duration": 0.034575,
+            "duration": 0.034099,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:10"
           }
         ]
@@ -630,16 +630,16 @@
       {
         "name": "they sell 1 cookies",
         "aggregatedDurations": {
-          "median": 0.0333045,
-          "average": 0.0333045
+          "median": 0.0335895,
+          "average": 0.0335895
         },
         "durations": [
           {
-            "duration": 0.033249,
+            "duration": 0.032749,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:9"
           },
           {
-            "duration": 0.03336,
+            "duration": 0.03443,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:9"
           }
         ]
@@ -647,12 +647,12 @@
       {
         "name": "they sell 2 cookies",
         "aggregatedDurations": {
-          "median": 0.035225,
-          "average": 0.035225
+          "median": 0.033825,
+          "average": 0.033825
         },
         "durations": [
           {
-            "duration": 0.035225,
+            "duration": 0.033825,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:9"
           }
         ]
@@ -660,12 +660,12 @@
       {
         "name": "they sell 3 cookies",
         "aggregatedDurations": {
-          "median": 0.033054,
-          "average": 0.033054
+          "median": 0.033969,
+          "average": 0.033969
         },
         "durations": [
           {
-            "duration": 0.033054,
+            "duration": 0.033969,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:9"
           }
         ]
@@ -673,12 +673,12 @@
       {
         "name": "they sell 4 cookies",
         "aggregatedDurations": {
-          "median": 0.034405,
-          "average": 0.034405
+          "median": 0.043669,
+          "average": 0.043669
         },
         "durations": [
           {
-            "duration": 0.034405,
+            "duration": 0.043669,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:9"
           }
         ]
@@ -686,12 +686,12 @@
       {
         "name": "they sell 26 cookies",
         "aggregatedDurations": {
-          "median": 0.034346,
-          "average": 0.034346
+          "median": 0.032902,
+          "average": 0.032902
         },
         "durations": [
           {
-            "duration": 0.034346,
+            "duration": 0.032902,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:9"
           }
         ]
@@ -699,12 +699,12 @@
       {
         "name": "they sell -1 cookies",
         "aggregatedDurations": {
-          "median": 0.033606,
-          "average": 0.033606
+          "median": 0.043302,
+          "average": 0.043302
         },
         "durations": [
           {
-            "duration": 0.033606,
+            "duration": 0.043302,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:9"
           }
         ]
@@ -717,24 +717,24 @@
       {
         "name": "they buy 1 factories",
         "aggregatedDurations": {
-          "median": 0.6597115,
-          "average": 0.6605525
+          "median": 0.661364,
+          "average": 0.6614055
         },
         "durations": [
           {
-            "duration": 0.664031,
+            "duration": 0.661161,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:11"
           },
           {
-            "duration": 0.658756,
+            "duration": 0.66149,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:11"
           },
           {
-            "duration": 0.659193,
+            "duration": 0.661238,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:11"
           },
           {
-            "duration": 0.66023,
+            "duration": 0.661733,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:11"
           }
         ]
@@ -742,16 +742,16 @@
       {
         "name": "they buy 2 factories",
         "aggregatedDurations": {
-          "median": 0.660972,
-          "average": 0.660972
+          "median": 0.6458655,
+          "average": 0.6458655
         },
         "durations": [
           {
-            "duration": 0.661996,
+            "duration": 0.655777,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:11"
           },
           {
-            "duration": 0.659948,
+            "duration": 0.635954,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:11"
           }
         ]
@@ -764,32 +764,32 @@
       {
         "name": "the cookie count increases on its own",
         "aggregatedDurations": {
-          "median": 6.00603,
-          "average": 6.038330833
+          "median": 6.1271055,
+          "average": 6.401464
         },
         "durations": [
           {
-            "duration": 5.368322,
+            "duration": 7.140647,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:12"
           },
           {
-            "duration": 6.125212,
+            "duration": 6.379651,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:12"
           },
           {
-            "duration": 5.886848,
+            "duration": 5.87456,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:12"
           },
           {
-            "duration": 6.884098,
+            "duration": 7.867513,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:12"
           },
           {
-            "duration": 5.612833,
+            "duration": 5.565787,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:12"
           },
           {
-            "duration": 6.352672,
+            "duration": 5.580626,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:12"
           }
         ]
@@ -802,12 +802,12 @@
       {
         "name": "the cookie count is now 1",
         "aggregatedDurations": {
-          "median": 0.104635,
-          "average": 0.104635
+          "median": 0.104731,
+          "average": 0.104731
         },
         "durations": [
           {
-            "duration": 0.104635,
+            "duration": 0.104731,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/ClickCookies.feature:9"
           }
         ]
@@ -815,12 +815,12 @@
       {
         "name": "the cookie count is now 5",
         "aggregatedDurations": {
-          "median": 0.104248,
-          "average": 0.104248
+          "median": 0.103506,
+          "average": 0.103506
         },
         "durations": [
           {
-            "duration": 0.104248,
+            "duration": 0.103506,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/ClickCookies.feature:9"
           }
         ]
@@ -828,12 +828,12 @@
       {
         "name": "the cookie count is now 10",
         "aggregatedDurations": {
-          "median": 0.103929,
-          "average": 0.103929
+          "median": 0.104004,
+          "average": 0.104004
         },
         "durations": [
           {
-            "duration": 0.103929,
+            "duration": 0.104004,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/ClickCookies.feature:9"
           }
         ]
@@ -841,12 +841,12 @@
       {
         "name": "the cookie count is now 15",
         "aggregatedDurations": {
-          "median": 0.108531,
-          "average": 0.108531
+          "median": 0.104543,
+          "average": 0.104543
         },
         "durations": [
           {
-            "duration": 0.108531,
+            "duration": 0.104543,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/ClickCookies.feature:9"
           }
         ]
@@ -854,12 +854,12 @@
       {
         "name": "the cookie count is now 20",
         "aggregatedDurations": {
-          "median": 0.109259,
-          "average": 0.109259
+          "median": 0.107443,
+          "average": 0.107443
         },
         "durations": [
           {
-            "duration": 0.109259,
+            "duration": 0.107443,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/ClickCookies.feature:9"
           }
         ]
@@ -867,12 +867,12 @@
       {
         "name": "the cookie count is now 25",
         "aggregatedDurations": {
-          "median": 0.106795,
-          "average": 0.106795
+          "median": 0.105371,
+          "average": 0.105371
         },
         "durations": [
           {
-            "duration": 0.106795,
+            "duration": 0.105371,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/ClickCookies.feature:9"
           }
         ]
@@ -880,12 +880,12 @@
       {
         "name": "the cookie count is now 30",
         "aggregatedDurations": {
-          "median": 0.108641,
-          "average": 0.108641
+          "median": 0.104,
+          "average": 0.104
         },
         "durations": [
           {
-            "duration": 0.108641,
+            "duration": 0.104,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/ClickCookies.feature:9"
           }
         ]
@@ -893,12 +893,12 @@
       {
         "name": "the cookie count is now 35",
         "aggregatedDurations": {
-          "median": 0.106793,
-          "average": 0.106793
+          "median": 0.103535,
+          "average": 0.103535
         },
         "durations": [
           {
-            "duration": 0.106793,
+            "duration": 0.103535,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/ClickCookies.feature:9"
           }
         ]
@@ -911,28 +911,28 @@
       {
         "name": "the cookie count has been adjusted",
         "aggregatedDurations": {
-          "median": 0.106063,
-          "average": 0.1568352
+          "median": 0.104814,
+          "average": 0.1055294
         },
         "durations": [
           {
-            "duration": 0.104859,
+            "duration": 0.104698,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:10"
           },
           {
-            "duration": 0.106063,
+            "duration": 0.104071,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:10"
           },
           {
-            "duration": 0.363138,
+            "duration": 0.104814,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:10"
           },
           {
-            "duration": 0.103426,
+            "duration": 0.105357,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:10"
           },
           {
-            "duration": 0.10669,
+            "duration": 0.108707,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:10"
           }
         ]
@@ -945,12 +945,12 @@
       {
         "name": "Money is now 0.25",
         "aggregatedDurations": {
-          "median": 0.00207,
-          "average": 0.00207
+          "median": 0.001538,
+          "average": 0.001538
         },
         "durations": [
           {
-            "duration": 0.00207,
+            "duration": 0.001538,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:11"
           }
         ]
@@ -958,12 +958,12 @@
       {
         "name": "Money is now 0.5",
         "aggregatedDurations": {
-          "median": 0.002469,
-          "average": 0.002469
+          "median": 0.001443,
+          "average": 0.001443
         },
         "durations": [
           {
-            "duration": 0.002469,
+            "duration": 0.001443,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:11"
           }
         ]
@@ -971,12 +971,12 @@
       {
         "name": "Money is now 0.75",
         "aggregatedDurations": {
-          "median": 0.003708,
-          "average": 0.003708
+          "median": 0.002085,
+          "average": 0.002085
         },
         "durations": [
           {
-            "duration": 0.003708,
+            "duration": 0.002085,
             "location": "file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:11"
           }
         ]

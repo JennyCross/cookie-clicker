@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="7" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="24" time="98.535">
-    <testcase classname="Buy Factories" name="Gill clicks the cookie button 1 times and buys 1 factories" time="8.412">
+<testsuite errors="0" failures="7" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="24" time="100.201">
+    <testcase classname="Buy Factories" name="Gill clicks the cookie button 1 times and buys 1 factories" time="10.018">
         <system-out><![CDATA[* Open Cookie Clicker App...................................................passed
 * Cookies have been cleared.................................................passed
 Given Gill starts a game....................................................passed
@@ -10,7 +10,7 @@ And they buy 1 factories....................................................pass
 Then the cookie count increases on its own..................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Buy Factories" name="Bob clicks the cookie button 5 times and buys 1 factories" time="7.575">
+    <testcase classname="Buy Factories" name="Bob clicks the cookie button 5 times and buys 1 factories" time="7.8">
         <system-out><![CDATA[* Open Cookie Clicker App...................................................passed
 * Cookies have been cleared.................................................passed
 Given Bob starts a game.....................................................passed
@@ -20,7 +20,7 @@ And they buy 1 factories....................................................pass
 Then the cookie count increases on its own..................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Buy Factories" name="Frank clicks the cookie button 10 times and buys 1 factories" time="7.496">
+    <testcase classname="Buy Factories" name="Frank clicks the cookie button 10 times and buys 1 factories" time="7.486">
         <system-out><![CDATA[* Open Cookie Clicker App...................................................passed
 * Cookies have been cleared.................................................passed
 Given Frank starts a game...................................................passed
@@ -30,7 +30,7 @@ And they buy 1 factories....................................................pass
 Then the cookie count increases on its own..................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Buy Factories" name="Julie clicks the cookie button 15 times and buys 1 factories" time="8.653">
+    <testcase classname="Buy Factories" name="Julie clicks the cookie button 15 times and buys 1 factories" time="9.651">
         <system-out><![CDATA[* Open Cookie Clicker App...................................................passed
 * Cookies have been cleared.................................................passed
 Given Julie starts a game...................................................passed
@@ -40,7 +40,7 @@ And they buy 1 factories....................................................pass
 Then the cookie count increases on its own..................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Buy Factories" name="Spencer clicks the cookie button 20 times and buys 2 factories" time="7.577">
+    <testcase classname="Buy Factories" name="Spencer clicks the cookie button 20 times and buys 2 factories" time="7.5">
         <system-out><![CDATA[* Open Cookie Clicker App...................................................passed
 * Cookies have been cleared.................................................passed
 Given Spencer starts a game.................................................passed
@@ -50,7 +50,7 @@ And they buy 2 factories....................................................pass
 Then the cookie count increases on its own..................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Buy Factories" name="Mary clicks the cookie button 25 times and buys 2 factories" time="8.457">
+    <testcase classname="Buy Factories" name="Mary clicks the cookie button 25 times and buys 2 factories" time="7.647">
         <system-out><![CDATA[* Open Cookie Clicker App...................................................passed
 * Cookies have been cleared.................................................passed
 Given Mary starts a game....................................................passed
@@ -60,7 +60,7 @@ And they buy 2 factories....................................................pass
 Then the cookie count increases on its own..................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Buy Factories" name="Heather clicks the cookie button 30 times and buys -3 factories" time="7.192">
+    <testcase classname="Buy Factories" name="Heather clicks the cookie button 30 times and buys -3 factories" time="7.16">
         <failure message="Locator expected not to have text: 0&#10;Received: 0&#10;&#10;Call log:&#10;  - Assert &quot;hasText&quot; with timeout 5000ms&#10;  - waiting for locator(&quot;#factories&quot;).first()&#10;    9 × locator resolved to &lt;span id=&quot;factories&quot;&gt;0&lt;/span&gt;&#10;      - unexpected value &quot;0&quot;" type="org.opentest4j.AssertionFailedError"><![CDATA[* Open Cookie Clicker App...................................................passed
 * Cookies have been cleared.................................................passed
 Given Heather starts a game.................................................passed
@@ -88,7 +88,7 @@ Call log:
 	at ✽.they buy -3 factories(file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:11)
 ]]></failure>
     </testcase>
-    <testcase classname="Buy Factories" name="Jason clicks the cookie button 35 times and buys C factories" time="2.31">
+    <testcase classname="Buy Factories" name="Jason clicks the cookie button 35 times and buys C factories" time="2.293">
         <failure message="For input string: &quot;C&quot;" type="java.lang.NumberFormatException"><![CDATA[* Open Cookie Clicker App...................................................passed
 * Cookies have been cleared.................................................passed
 Given Jason starts a game...................................................passed
@@ -107,7 +107,7 @@ java.lang.NumberFormatException: For input string: "C"
 	at ✽.they buy C factories(file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:11)
 ]]></failure>
     </testcase>
-    <testcase classname="Cookie Clicker" name="Gill clicks the cookie button 1 times" time="0.712">
+    <testcase classname="Cookie Clicker" name="Gill clicks the cookie button 1 times" time="0.698">
         <system-out><![CDATA[* Open Cookie Clicker App...................................................passed
 * Cookies have been cleared.................................................passed
 Given Gill starts a game....................................................passed
@@ -115,7 +115,7 @@ When the cookie is clicked 1 times..........................................pass
 Then the cookie count is now 1..............................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Cookie Clicker" name="Bob clicks the cookie button 5 times" time="0.865">
+    <testcase classname="Cookie Clicker" name="Bob clicks the cookie button 5 times" time="0.829">
         <system-out><![CDATA[* Open Cookie Clicker App...................................................passed
 * Cookies have been cleared.................................................passed
 Given Bob starts a game.....................................................passed
@@ -123,7 +123,7 @@ When the cookie is clicked 5 times..........................................pass
 Then the cookie count is now 5..............................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Cookie Clicker" name="Frank clicks the cookie button 10 times" time="0.994">
+    <testcase classname="Cookie Clicker" name="Frank clicks the cookie button 10 times" time="0.979">
         <system-out><![CDATA[* Open Cookie Clicker App...................................................passed
 * Cookies have been cleared.................................................passed
 Given Frank starts a game...................................................passed
@@ -131,7 +131,7 @@ When the cookie is clicked 10 times.........................................pass
 Then the cookie count is now 10.............................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Cookie Clicker" name="Julie clicks the cookie button 15 times" time="1.204">
+    <testcase classname="Cookie Clicker" name="Julie clicks the cookie button 15 times" time="1.17">
         <system-out><![CDATA[* Open Cookie Clicker App...................................................passed
 * Cookies have been cleared.................................................passed
 Given Julie starts a game...................................................passed
@@ -139,7 +139,7 @@ When the cookie is clicked 15 times.........................................pass
 Then the cookie count is now 15.............................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Cookie Clicker" name="Spencer clicks the cookie button 20 times" time="1.346">
+    <testcase classname="Cookie Clicker" name="Spencer clicks the cookie button 20 times" time="1.36">
         <system-out><![CDATA[* Open Cookie Clicker App...................................................passed
 * Cookies have been cleared.................................................passed
 Given Spencer starts a game.................................................passed
@@ -147,7 +147,7 @@ When the cookie is clicked 20 times.........................................pass
 Then the cookie count is now 20.............................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Cookie Clicker" name="Mary clicks the cookie button 25 times" time="1.511">
+    <testcase classname="Cookie Clicker" name="Mary clicks the cookie button 25 times" time="1.568">
         <system-out><![CDATA[* Open Cookie Clicker App...................................................passed
 * Cookies have been cleared.................................................passed
 Given Mary starts a game....................................................passed
@@ -155,7 +155,7 @@ When the cookie is clicked 25 times.........................................pass
 Then the cookie count is now 25.............................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Cookie Clicker" name="Heather clicks the cookie button 30 times" time="1.68">
+    <testcase classname="Cookie Clicker" name="Heather clicks the cookie button 30 times" time="1.727">
         <system-out><![CDATA[* Open Cookie Clicker App...................................................passed
 * Cookies have been cleared.................................................passed
 Given Heather starts a game.................................................passed
@@ -163,7 +163,7 @@ When the cookie is clicked 30 times.........................................pass
 Then the cookie count is now 30.............................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Cookie Clicker" name="Jason clicks the cookie button 35 times" time="1.842">
+    <testcase classname="Cookie Clicker" name="Jason clicks the cookie button 35 times" time="1.863">
         <system-out><![CDATA[* Open Cookie Clicker App...................................................passed
 * Cookies have been cleared.................................................passed
 Given Jason starts a game...................................................passed
@@ -171,7 +171,7 @@ When the cookie is clicked 35 times.........................................pass
 Then the cookie count is now 35.............................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Sell Cookies" name="Gill clicks the cookie button 1 times and sells 1 cookie(s)" time="5.653">
+    <testcase classname="Sell Cookies" name="Gill clicks the cookie button 1 times and sells 1 cookie(s)" time="5.69">
         <failure message="Locator expected to have text: 0&#10;Received: 1&#10;&#10;Call log:&#10;  - Assert &quot;hasText&quot; with timeout 5000ms&#10;  - waiting for locator(&quot;#cookies&quot;).first()&#10;    9 × locator resolved to &lt;span id=&quot;cookies&quot;&gt;1&lt;/span&gt;&#10;      - unexpected value &quot;1&quot;" type="org.opentest4j.AssertionFailedError"><![CDATA[* Open Cookie Clicker App...................................................passed
 * Cookies have been cleared.................................................passed
 Given Gill starts a game....................................................passed
@@ -199,7 +199,7 @@ Call log:
 	at ✽.the cookie count has been adjusted(file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:10)
 ]]></failure>
     </testcase>
-    <testcase classname="Sell Cookies" name="Bob clicks the cookie button 5 times and sells 1 cookie(s)" time="0.884">
+    <testcase classname="Sell Cookies" name="Bob clicks the cookie button 5 times and sells 1 cookie(s)" time="0.875">
         <system-out><![CDATA[* Open Cookie Clicker App...................................................passed
 * Cookies have been cleared.................................................passed
 Given Bob starts a game.....................................................passed
@@ -209,7 +209,7 @@ Then the cookie count has been adjusted.....................................pass
 And Money is now 0.25.......................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Sell Cookies" name="Frank clicks the cookie button 10 times and sells 2 cookie(s)" time="1.225">
+    <testcase classname="Sell Cookies" name="Frank clicks the cookie button 10 times and sells 2 cookie(s)" time="1.033">
         <system-out><![CDATA[* Open Cookie Clicker App...................................................passed
 * Cookies have been cleared.................................................passed
 Given Frank starts a game...................................................passed
@@ -219,7 +219,7 @@ Then the cookie count has been adjusted.....................................pass
 And Money is now 0.5........................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Sell Cookies" name="Julie clicks the cookie button 15 times and sells 3 cookie(s)" time="1.497">
+    <testcase classname="Sell Cookies" name="Julie clicks the cookie button 15 times and sells 3 cookie(s)" time="1.218">
         <system-out><![CDATA[* Open Cookie Clicker App...................................................passed
 * Cookies have been cleared.................................................passed
 Given Julie starts a game...................................................passed
@@ -229,7 +229,7 @@ Then the cookie count has been adjusted.....................................pass
 And Money is now 0.75.......................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Sell Cookies" name="Spencer clicks the cookie button 20 times and sells 4 cookie(s)" time="6.392">
+    <testcase classname="Sell Cookies" name="Spencer clicks the cookie button 20 times and sells 4 cookie(s)" time="6.459">
         <failure message="Locator expected to have text: 1.0&#10;Received: 1&#10;&#10;Call log:&#10;  - Assert &quot;hasText&quot; with timeout 5000ms&#10;  - waiting for locator(&quot;#money&quot;).first()&#10;    9 × locator resolved to &lt;span id=&quot;money&quot;&gt;1&lt;/span&gt;&#10;      - unexpected value &quot;1&quot;" type="org.opentest4j.AssertionFailedError"><![CDATA[* Open Cookie Clicker App...................................................passed
 * Cookies have been cleared.................................................passed
 Given Spencer starts a game.................................................passed
@@ -257,7 +257,7 @@ Call log:
 	at ✽.Money is now 1.0(file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:11)
 ]]></failure>
     </testcase>
-    <testcase classname="Sell Cookies" name="Mary clicks the cookie button 25 times and sells 26 cookie(s)" time="6.452">
+    <testcase classname="Sell Cookies" name="Mary clicks the cookie button 25 times and sells 26 cookie(s)" time="6.496">
         <failure message="Locator expected to have text: -1&#10;Received: 25&#10;&#10;Call log:&#10;  - Assert &quot;hasText&quot; with timeout 5000ms&#10;  - waiting for locator(&quot;#cookies&quot;).first()&#10;    9 × locator resolved to &lt;span id=&quot;cookies&quot;&gt;25&lt;/span&gt;&#10;      - unexpected value &quot;25&quot;" type="org.opentest4j.AssertionFailedError"><![CDATA[* Open Cookie Clicker App...................................................passed
 * Cookies have been cleared.................................................passed
 Given Mary starts a game....................................................passed
@@ -285,7 +285,7 @@ Call log:
 	at ✽.the cookie count has been adjusted(file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:10)
 ]]></failure>
     </testcase>
-    <testcase classname="Sell Cookies" name="Heather clicks the cookie button 30 times and sells -1 cookie(s)" time="6.731">
+    <testcase classname="Sell Cookies" name="Heather clicks the cookie button 30 times and sells -1 cookie(s)" time="6.818">
         <failure message="Locator expected to have text: 0.0&#10;Received: -0.25&#10;&#10;Call log:&#10;  - Assert &quot;hasText&quot; with timeout 5000ms&#10;  - waiting for locator(&quot;#money&quot;).first()&#10;    9 × locator resolved to &lt;span id=&quot;money&quot;&gt;-0.25&lt;/span&gt;&#10;      - unexpected value &quot;-0.25&quot;" type="org.opentest4j.AssertionFailedError"><![CDATA[* Open Cookie Clicker App...................................................passed
 * Cookies have been cleared.................................................passed
 Given Heather starts a game.................................................passed
@@ -313,7 +313,7 @@ Call log:
 	at ✽.Money is now 0.0(file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:11)
 ]]></failure>
     </testcase>
-    <testcase classname="Sell Cookies" name="Jason clicks the cookie button 35 times and sells B cookie(s)" time="1.735">
+    <testcase classname="Sell Cookies" name="Jason clicks the cookie button 35 times and sells B cookie(s)" time="1.725">
         <failure message="For input string: &quot;B&quot;" type="java.lang.NumberFormatException"><![CDATA[* Open Cookie Clicker App...................................................passed
 * Cookies have been cleared.................................................passed
 Given Jason starts a game...................................................passed
