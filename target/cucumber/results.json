@@ -1,0 +1,3834 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Scenario background repeated for each scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 156458000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Cookie Clicker App",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.openCookieClickerApp()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1634000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Cookies have been cleared",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.cookiesHaveBeenCleared()"
+            },
+            "keyword": "* "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-07-29T07:43:04.029Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1861462000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.launchBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 92934000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.createContextAndPage(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Gill clicks the cookie button 1 times and buys 1 factories",
+        "description": "",
+        "id": "buy-factories;\u003cplayername\u003e-clicks-the-cookie-button-\u003cclickcount\u003e-times-and-buys-\u003cfactories\u003e-factories;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 14980000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closeContext(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 19990000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closePlaywright()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 143353000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Gill starts a game",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Gill",
+                  "offset": 0
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.startsAGame(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 31256000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the cookie is clicked 1 times",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 22
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieIsClickedTimes(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31897000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "they sell 0 cookies",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 10
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theySellCookies(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 664031000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "they buy 1 factories",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 9
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theyBuyFactories(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5368322000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the cookie count increases on its own",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieCountIncreasesOnItsOwn()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Scenario background repeated for each scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 88208000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Cookie Clicker App",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.openCookieClickerApp()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1163000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Cookies have been cleared",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.cookiesHaveBeenCleared()"
+            },
+            "keyword": "* "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-07-29T07:43:12.448Z",
+        "before": [
+          {
+            "result": {
+              "duration": 257909000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.launchBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 64636000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.createContextAndPage(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Bob clicks the cookie button 5 times and buys 1 factories",
+        "description": "",
+        "id": "buy-factories;\u003cplayername\u003e-clicks-the-cookie-button-\u003cclickcount\u003e-times-and-buys-\u003cfactories\u003e-factories;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 9229000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closeContext(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 24069000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closePlaywright()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 152284000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Bob starts a game",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bob",
+                  "offset": 0
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.startsAGame(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 150640000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the cookie is clicked 5 times",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 22
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieIsClickedTimes(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34687000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "they sell 12 cookies",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12",
+                  "offset": 10
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theySellCookies(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 658756000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "they buy 1 factories",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 9
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theyBuyFactories(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6125212000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the cookie count increases on its own",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieCountIncreasesOnItsOwn()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Scenario background repeated for each scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 92027000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Cookie Clicker App",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.openCookieClickerApp()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 891000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Cookies have been cleared",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.cookiesHaveBeenCleared()"
+            },
+            "keyword": "* "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-07-29T07:43:20.027Z",
+        "before": [
+          {
+            "result": {
+              "duration": 254864000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.launchBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 69537000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.createContextAndPage(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Frank clicks the cookie button 10 times and buys 1 factories",
+        "description": "",
+        "id": "buy-factories;\u003cplayername\u003e-clicks-the-cookie-button-\u003cclickcount\u003e-times-and-buys-\u003cfactories\u003e-factories;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 10432000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closeContext(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 24468000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closePlaywright()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 101945000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Frank starts a game",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Frank",
+                  "offset": 0
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.startsAGame(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 353746000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the cookie is clicked 10 times",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 22
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieIsClickedTimes(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35004000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "they sell 12 cookies",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12",
+                  "offset": 10
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theySellCookies(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 659193000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "they buy 1 factories",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 9
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theyBuyFactories(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5886848000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the cookie count increases on its own",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieCountIncreasesOnItsOwn()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Scenario background repeated for each scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 85955000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Cookie Clicker App",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.openCookieClickerApp()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1005000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Cookies have been cleared",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.cookiesHaveBeenCleared()"
+            },
+            "keyword": "* "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-07-29T07:43:27.526Z",
+        "before": [
+          {
+            "result": {
+              "duration": 256249000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.launchBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 67929000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.createContextAndPage(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Julie clicks the cookie button 15 times and buys 1 factories",
+        "description": "",
+        "id": "buy-factories;\u003cplayername\u003e-clicks-the-cookie-button-\u003cclickcount\u003e-times-and-buys-\u003cfactories\u003e-factories;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 9034000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closeContext(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 20195000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closePlaywright()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 107997000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Julie starts a game",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Julie",
+                  "offset": 0
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.startsAGame(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 523356000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the cookie is clicked 15 times",
+            "match": {
+              "arguments": [
+                {
+                  "val": "15",
+                  "offset": 22
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieIsClickedTimes(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30902000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "they sell 12 cookies",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12",
+                  "offset": 10
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theySellCookies(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 660230000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "they buy 1 factories",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 9
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theyBuyFactories(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6884098000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the cookie count increases on its own",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieCountIncreasesOnItsOwn()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Scenario background repeated for each scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 91368000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Cookie Clicker App",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.openCookieClickerApp()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1261000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Cookies have been cleared",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.cookiesHaveBeenCleared()"
+            },
+            "keyword": "* "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-07-29T07:43:36.183Z",
+        "before": [
+          {
+            "result": {
+              "duration": 269915000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.launchBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 70002000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.createContextAndPage(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Spencer clicks the cookie button 20 times and buys 2 factories",
+        "description": "",
+        "id": "buy-factories;\u003cplayername\u003e-clicks-the-cookie-button-\u003cclickcount\u003e-times-and-buys-\u003cfactories\u003e-factories;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 9095000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closeContext(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 19340000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closePlaywright()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 141882000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Spencer starts a game",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Spencer",
+                  "offset": 0
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.startsAGame(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 660274000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the cookie is clicked 20 times",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20",
+                  "offset": 22
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieIsClickedTimes(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33904000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "they sell 12 cookies",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12",
+                  "offset": 10
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theySellCookies(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 661996000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "they buy 2 factories",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 9
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theyBuyFactories(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5612833000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the cookie count increases on its own",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieCountIncreasesOnItsOwn()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Scenario background repeated for each scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 91962000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Cookie Clicker App",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.openCookieClickerApp()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1020000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Cookies have been cleared",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.cookiesHaveBeenCleared()"
+            },
+            "keyword": "* "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-07-29T07:43:43.763Z",
+        "before": [
+          {
+            "result": {
+              "duration": 250267000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.launchBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 71050000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.createContextAndPage(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Mary clicks the cookie button 25 times and buys 2 factories",
+        "description": "",
+        "id": "buy-factories;\u003cplayername\u003e-clicks-the-cookie-button-\u003cclickcount\u003e-times-and-buys-\u003cfactories\u003e-factories;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 4015000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closeContext(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 13939000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closePlaywright()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 148767000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Mary starts a game",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mary",
+                  "offset": 0
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.startsAGame(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 823179000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the cookie is clicked 25 times",
+            "match": {
+              "arguments": [
+                {
+                  "val": "25",
+                  "offset": 22
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieIsClickedTimes(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33445000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "they sell 24 cookies",
+            "match": {
+              "arguments": [
+                {
+                  "val": "24",
+                  "offset": 10
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theySellCookies(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 659948000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "they buy 2 factories",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 9
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theyBuyFactories(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6352672000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the cookie count increases on its own",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieCountIncreasesOnItsOwn()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Scenario background repeated for each scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 98807000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Cookie Clicker App",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.openCookieClickerApp()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1047000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Cookies have been cleared",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.cookiesHaveBeenCleared()"
+            },
+            "keyword": "* "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-07-29T07:43:52.222Z",
+        "before": [
+          {
+            "result": {
+              "duration": 251267000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.launchBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 71512000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.createContextAndPage(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Heather clicks the cookie button 30 times and buys -3 factories",
+        "description": "",
+        "id": "buy-factories;\u003cplayername\u003e-clicks-the-cookie-button-\u003cclickcount\u003e-times-and-buys-\u003cfactories\u003e-factories;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 8866000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closeContext(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 19018000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closePlaywright()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 134940000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Heather starts a game",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Heather",
+                  "offset": 0
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.startsAGame(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1001076000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the cookie is clicked 30 times",
+            "match": {
+              "arguments": [
+                {
+                  "val": "30",
+                  "offset": 22
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieIsClickedTimes(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32646000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "they sell 24 cookies",
+            "match": {
+              "arguments": [
+                {
+                  "val": "24",
+                  "offset": 10
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theySellCookies(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.opentest4j.AssertionFailedError: Locator expected not to have text: 0\nReceived: 0\n\nCall log:\n  - Assert \"hasText\" with timeout 5000ms\n  - waiting for locator(\"#factories\").first()\n    9 × locator resolved to \u003cspan id\u003d\"factories\"\u003e0\u003c/span\u003e\n      - unexpected value \"0\"\n\tat com.microsoft.playwright.impl.AssertionsBase.expectImpl(AssertionsBase.java:74)\n\tat com.microsoft.playwright.impl.AssertionsBase.expectImpl(AssertionsBase.java:50)\n\tat com.microsoft.playwright.impl.AssertionsBase.expectImpl(AssertionsBase.java:42)\n\tat com.microsoft.playwright.impl.LocatorAssertionsImpl.hasText(LocatorAssertionsImpl.java:295)\n\tat com.microsoft.playwright.assertions.LocatorAssertions.hasText(LocatorAssertions.java:1980)\n\tat org.example.cookieclicker.pages.GamePage.buyCookieFactories(GamePage.java:84)\n\tat org.example.cookieclicker.steps.Stepdefs.theyBuyFactories(Stepdefs.java:117)\n\tat ✽.they buy -3 factories(file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:11)\n",
+              "duration": 5559999000,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "they buy -3 factories",
+            "match": {
+              "arguments": [
+                {
+                  "val": "-3",
+                  "offset": 9
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theyBuyFactories(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 217000,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "the cookie count increases on its own",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieCountIncreasesOnItsOwn()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Scenario background repeated for each scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 99891000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Cookie Clicker App",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.openCookieClickerApp()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1064000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Cookies have been cleared",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.cookiesHaveBeenCleared()"
+            },
+            "keyword": "* "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-07-29T07:43:59.419Z",
+        "before": [
+          {
+            "result": {
+              "duration": 250003000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.launchBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 70996000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.createContextAndPage(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Jason clicks the cookie button 35 times and buys C factories",
+        "description": "",
+        "id": "buy-factories;\u003cplayername\u003e-clicks-the-cookie-button-\u003cclickcount\u003e-times-and-buys-\u003cfactories\u003e-factories;;9",
+        "after": [
+          {
+            "result": {
+              "duration": 8584000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closeContext(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 18104000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closePlaywright()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 143714000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Jason starts a game",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jason",
+                  "offset": 0
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.startsAGame(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1161903000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the cookie is clicked 35 times",
+            "match": {
+              "arguments": [
+                {
+                  "val": "35",
+                  "offset": 22
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieIsClickedTimes(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34575000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "they sell 24 cookies",
+            "match": {
+              "arguments": [
+                {
+                  "val": "24",
+                  "offset": 10
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theySellCookies(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NumberFormatException: For input string: \"C\"\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:662)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:778)\n\tat org.example.cookieclicker.pages.GamePage.buyCookieFactories(GamePage.java:81)\n\tat org.example.cookieclicker.steps.Stepdefs.theyBuyFactories(Stepdefs.java:117)\n\tat ✽.they buy C factories(file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/BuyFactories.feature:11)\n",
+              "duration": 511571000,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "they buy C factories",
+            "match": {
+              "arguments": [
+                {
+                  "val": "C",
+                  "offset": 9
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theyBuyFactories(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 140000,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "the cookie count increases on its own",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieCountIncreasesOnItsOwn()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Buy Factories",
+    "description": "",
+    "id": "buy-factories",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/BuyFactories.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Scenario background repeated for each scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 98824000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Open Cookie Clicker App",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.openCookieClickerApp()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 962000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Cookies have been cleared",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.cookiesHaveBeenCleared()"
+            },
+            "keyword": "* "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-07-29T07:44:01.731Z",
+        "before": [
+          {
+            "result": {
+              "duration": 248026000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.launchBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 67079000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.createContextAndPage(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Gill clicks the cookie button 1 times",
+        "description": "",
+        "id": "cookie-clicker;\u003cplayername\u003e-clicks-the-cookie-button-\u003cclickcount\u003e-times;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 4749000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closeContext(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 16118000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closePlaywright()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 150396000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Gill starts a game",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Gill",
+                  "offset": 0
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.startsAGame(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16173000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the cookie is clicked 1 times",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 22
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieIsClickedTimes(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 104635000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the cookie count is now 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 24
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieCountIsNow(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "Scenario background repeated for each scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 129295000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Open Cookie Clicker App",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.openCookieClickerApp()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 896000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Cookies have been cleared",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.cookiesHaveBeenCleared()"
+            },
+            "keyword": "* "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-07-29T07:44:02.446Z",
+        "before": [
+          {
+            "result": {
+              "duration": 247346000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.launchBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 66814000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.createContextAndPage(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Bob clicks the cookie button 5 times",
+        "description": "",
+        "id": "cookie-clicker;\u003cplayername\u003e-clicks-the-cookie-button-\u003cclickcount\u003e-times;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 5253000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closeContext(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 16718000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closePlaywright()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 127519000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Bob starts a game",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bob",
+                  "offset": 0
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.startsAGame(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 162247000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the cookie is clicked 5 times",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 22
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieIsClickedTimes(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 104248000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the cookie count is now 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 24
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieCountIsNow(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "Scenario background repeated for each scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 88790000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Open Cookie Clicker App",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.openCookieClickerApp()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1033000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Cookies have been cleared",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.cookiesHaveBeenCleared()"
+            },
+            "keyword": "* "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-07-29T07:44:03.314Z",
+        "before": [
+          {
+            "result": {
+              "duration": 249707000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.launchBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 73142000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.createContextAndPage(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Frank clicks the cookie button 10 times",
+        "description": "",
+        "id": "cookie-clicker;\u003cplayername\u003e-clicks-the-cookie-button-\u003cclickcount\u003e-times;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 4025000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closeContext(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 14832000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closePlaywright()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 134091000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Frank starts a game",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Frank",
+                  "offset": 0
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.startsAGame(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 321369000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the cookie is clicked 10 times",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 22
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieIsClickedTimes(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 103929000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the cookie count is now 10",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 24
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieCountIsNow(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "Scenario background repeated for each scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 83755000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Open Cookie Clicker App",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.openCookieClickerApp()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1066000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Cookies have been cleared",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.cookiesHaveBeenCleared()"
+            },
+            "keyword": "* "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-07-29T07:44:04.310Z",
+        "before": [
+          {
+            "result": {
+              "duration": 246359000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.launchBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 70055000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.createContextAndPage(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Julie clicks the cookie button 15 times",
+        "description": "",
+        "id": "cookie-clicker;\u003cplayername\u003e-clicks-the-cookie-button-\u003cclickcount\u003e-times;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 9363000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closeContext(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 25361000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closePlaywright()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 164958000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Julie starts a game",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Julie",
+                  "offset": 0
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.startsAGame(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 488328000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the cookie is clicked 15 times",
+            "match": {
+              "arguments": [
+                {
+                  "val": "15",
+                  "offset": 22
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieIsClickedTimes(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 108531000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the cookie count is now 15",
+            "match": {
+              "arguments": [
+                {
+                  "val": "15",
+                  "offset": 24
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieCountIsNow(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "Scenario background repeated for each scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 87435000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Open Cookie Clicker App",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.openCookieClickerApp()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 958000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Cookies have been cleared",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.cookiesHaveBeenCleared()"
+            },
+            "keyword": "* "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-07-29T07:44:05.517Z",
+        "before": [
+          {
+            "result": {
+              "duration": 253526000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.launchBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 65268000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.createContextAndPage(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Spencer clicks the cookie button 20 times",
+        "description": "",
+        "id": "cookie-clicker;\u003cplayername\u003e-clicks-the-cookie-button-\u003cclickcount\u003e-times;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 8663000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closeContext(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 25516000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closePlaywright()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 137058000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Spencer starts a game",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Spencer",
+                  "offset": 0
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.startsAGame(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 653477000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the cookie is clicked 20 times",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20",
+                  "offset": 22
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieIsClickedTimes(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 109259000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the cookie count is now 20",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20",
+                  "offset": 24
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieCountIsNow(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "Scenario background repeated for each scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 91975000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Open Cookie Clicker App",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.openCookieClickerApp()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1139000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Cookies have been cleared",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.cookiesHaveBeenCleared()"
+            },
+            "keyword": "* "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-07-29T07:44:06.865Z",
+        "before": [
+          {
+            "result": {
+              "duration": 245912000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.launchBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 67753000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.createContextAndPage(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Mary clicks the cookie button 25 times",
+        "description": "",
+        "id": "cookie-clicker;\u003cplayername\u003e-clicks-the-cookie-button-\u003cclickcount\u003e-times;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 9111000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closeContext(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 24110000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closePlaywright()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 130091000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Mary starts a game",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mary",
+                  "offset": 0
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.startsAGame(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 830686000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the cookie is clicked 25 times",
+            "match": {
+              "arguments": [
+                {
+                  "val": "25",
+                  "offset": 22
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieIsClickedTimes(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 106795000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the cookie count is now 25",
+            "match": {
+              "arguments": [
+                {
+                  "val": "25",
+                  "offset": 24
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieCountIsNow(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "Scenario background repeated for each scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 82638000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Open Cookie Clicker App",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.openCookieClickerApp()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 915000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Cookies have been cleared",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.cookiesHaveBeenCleared()"
+            },
+            "keyword": "* "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-07-29T07:44:08.379Z",
+        "before": [
+          {
+            "result": {
+              "duration": 249805000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.launchBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 63204000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.createContextAndPage(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Heather clicks the cookie button 30 times",
+        "description": "",
+        "id": "cookie-clicker;\u003cplayername\u003e-clicks-the-cookie-button-\u003cclickcount\u003e-times;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 7523000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closeContext(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 23432000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closePlaywright()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 148600000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Heather starts a game",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Heather",
+                  "offset": 0
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.startsAGame(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 988437000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the cookie is clicked 30 times",
+            "match": {
+              "arguments": [
+                {
+                  "val": "30",
+                  "offset": 22
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieIsClickedTimes(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 108641000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the cookie count is now 30",
+            "match": {
+              "arguments": [
+                {
+                  "val": "30",
+                  "offset": 24
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieCountIsNow(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "Scenario background repeated for each scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 87336000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Open Cookie Clicker App",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.openCookieClickerApp()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 925000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Cookies have been cleared",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.cookiesHaveBeenCleared()"
+            },
+            "keyword": "* "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-07-29T07:44:10.062Z",
+        "before": [
+          {
+            "result": {
+              "duration": 254175000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.launchBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 69559000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.createContextAndPage(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Jason clicks the cookie button 35 times",
+        "description": "",
+        "id": "cookie-clicker;\u003cplayername\u003e-clicks-the-cookie-button-\u003cclickcount\u003e-times;;9",
+        "after": [
+          {
+            "result": {
+              "duration": 8641000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closeContext(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 19008000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closePlaywright()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 128359000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Jason starts a game",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jason",
+                  "offset": 0
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.startsAGame(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1164323000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the cookie is clicked 35 times",
+            "match": {
+              "arguments": [
+                {
+                  "val": "35",
+                  "offset": 22
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieIsClickedTimes(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 106793000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the cookie count is now 35",
+            "match": {
+              "arguments": [
+                {
+                  "val": "35",
+                  "offset": 24
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieCountIsNow(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Cookie Clicker",
+    "description": "",
+    "id": "cookie-clicker",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/ClickCookies.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Scenario background repeated for each scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 91175000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Open Cookie Clicker App",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.openCookieClickerApp()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1004000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Cookies have been cleared",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.cookiesHaveBeenCleared()"
+            },
+            "keyword": "* "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-07-29T07:44:11.906Z",
+        "before": [
+          {
+            "result": {
+              "duration": 248618000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.launchBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 68264000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.createContextAndPage(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Gill clicks the cookie button 1 times and sells 1 cookie(s)",
+        "description": "",
+        "id": "sell-cookies;\u003cplayername\u003e-clicks-the-cookie-button-\u003cclickcount\u003e-times-and-sells-\u003csellcookies\u003e-cookie(s);;2",
+        "after": [
+          {
+            "result": {
+              "duration": 7744000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closeContext(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 25606000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closePlaywright()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 109733000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Gill starts a game",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Gill",
+                  "offset": 0
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.startsAGame(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 53078000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the cookie is clicked 1 times",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 22
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieIsClickedTimes(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33249000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "they sell 1 cookies",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 10
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theySellCookies(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.opentest4j.AssertionFailedError: Locator expected to have text: 0\nReceived: 1\n\nCall log:\n  - Assert \"hasText\" with timeout 5000ms\n  - waiting for locator(\"#cookies\").first()\n    9 × locator resolved to \u003cspan id\u003d\"cookies\"\u003e1\u003c/span\u003e\n      - unexpected value \"1\"\n\tat com.microsoft.playwright.impl.AssertionsBase.expectImpl(AssertionsBase.java:74)\n\tat com.microsoft.playwright.impl.AssertionsBase.expectImpl(AssertionsBase.java:50)\n\tat com.microsoft.playwright.impl.AssertionsBase.expectImpl(AssertionsBase.java:42)\n\tat com.microsoft.playwright.impl.LocatorAssertionsImpl.hasText(LocatorAssertionsImpl.java:295)\n\tat com.microsoft.playwright.assertions.LocatorAssertions.hasText(LocatorAssertions.java:1980)\n\tat org.example.cookieclicker.pages.GamePage.checkTheCookieTotal(GamePage.java:63)\n\tat org.example.cookieclicker.steps.Stepdefs.theCookieCountHasBeenAdjusted(Stepdefs.java:107)\n\tat ✽.the cookie count has been adjusted(file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:10)\n",
+              "duration": 5004901000,
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "the cookie count has been adjusted",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieCountHasBeenAdjusted()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 110000,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Money is now 0.25",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0.25",
+                  "offset": 13
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.moneyIsNow(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "Scenario background repeated for each scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 89099000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Open Cookie Clicker App",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.openCookieClickerApp()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 932000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Cookies have been cleared",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.cookiesHaveBeenCleared()"
+            },
+            "keyword": "* "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-07-29T07:44:17.561Z",
+        "before": [
+          {
+            "result": {
+              "duration": 254695000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.launchBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 69293000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.createContextAndPage(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Bob clicks the cookie button 5 times and sells 1 cookie(s)",
+        "description": "",
+        "id": "sell-cookies;\u003cplayername\u003e-clicks-the-cookie-button-\u003cclickcount\u003e-times-and-sells-\u003csellcookies\u003e-cookie(s);;3",
+        "after": [
+          {
+            "result": {
+              "duration": 4483000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closeContext(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 15232000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closePlaywright()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 141904000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Bob starts a game",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bob",
+                  "offset": 0
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.startsAGame(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 165578000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the cookie is clicked 5 times",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 22
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieIsClickedTimes(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33360000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "they sell 1 cookies",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 10
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theySellCookies(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104859000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the cookie count has been adjusted",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieCountHasBeenAdjusted()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2070000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Money is now 0.25",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0.25",
+                  "offset": 13
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.moneyIsNow(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "Scenario background repeated for each scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 250941000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Open Cookie Clicker App",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.openCookieClickerApp()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1066000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Cookies have been cleared",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.cookiesHaveBeenCleared()"
+            },
+            "keyword": "* "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-07-29T07:44:18.447Z",
+        "before": [
+          {
+            "result": {
+              "duration": 246505000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.launchBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 69838000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.createContextAndPage(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Frank clicks the cookie button 10 times and sells 2 cookie(s)",
+        "description": "",
+        "id": "sell-cookies;\u003cplayername\u003e-clicks-the-cookie-button-\u003cclickcount\u003e-times-and-sells-\u003csellcookies\u003e-cookie(s);;4",
+        "after": [
+          {
+            "result": {
+              "duration": 7610000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closeContext(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 19099000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closePlaywright()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 150207000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Frank starts a game",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Frank",
+                  "offset": 0
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.startsAGame(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 330236000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the cookie is clicked 10 times",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 22
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieIsClickedTimes(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35225000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "they sell 2 cookies",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 10
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theySellCookies(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 106063000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the cookie count has been adjusted",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieCountHasBeenAdjusted()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2469000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Money is now 0.5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0.5",
+                  "offset": 13
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.moneyIsNow(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "Scenario background repeated for each scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 104811000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Open Cookie Clicker App",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.openCookieClickerApp()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 989000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Cookies have been cleared",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.cookiesHaveBeenCleared()"
+            },
+            "keyword": "* "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-07-29T07:44:19.674Z",
+        "before": [
+          {
+            "result": {
+              "duration": 251414000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.launchBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 67624000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.createContextAndPage(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Julie clicks the cookie button 15 times and sells 3 cookie(s)",
+        "description": "",
+        "id": "sell-cookies;\u003cplayername\u003e-clicks-the-cookie-button-\u003cclickcount\u003e-times-and-sells-\u003csellcookies\u003e-cookie(s);;5",
+        "after": [
+          {
+            "result": {
+              "duration": 9357000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closeContext(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 23813000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closePlaywright()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 134837000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Julie starts a game",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Julie",
+                  "offset": 0
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.startsAGame(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 496403000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the cookie is clicked 15 times",
+            "match": {
+              "arguments": [
+                {
+                  "val": "15",
+                  "offset": 22
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieIsClickedTimes(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33054000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "they sell 3 cookies",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 10
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theySellCookies(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 363138000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the cookie count has been adjusted",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieCountHasBeenAdjusted()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3708000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Money is now 0.75",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0.75",
+                  "offset": 13
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.moneyIsNow(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "Scenario background repeated for each scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 96237000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Open Cookie Clicker App",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.openCookieClickerApp()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 960000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Cookies have been cleared",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.cookiesHaveBeenCleared()"
+            },
+            "keyword": "* "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-07-29T07:44:21.173Z",
+        "before": [
+          {
+            "result": {
+              "duration": 251987000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.launchBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 67131000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.createContextAndPage(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Spencer clicks the cookie button 20 times and sells 4 cookie(s)",
+        "description": "",
+        "id": "sell-cookies;\u003cplayername\u003e-clicks-the-cookie-button-\u003cclickcount\u003e-times-and-sells-\u003csellcookies\u003e-cookie(s);;6",
+        "after": [
+          {
+            "result": {
+              "duration": 9407000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closeContext(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 24976000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closePlaywright()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 136176000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Spencer starts a game",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Spencer",
+                  "offset": 0
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.startsAGame(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 654983000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the cookie is clicked 20 times",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20",
+                  "offset": 22
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieIsClickedTimes(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34405000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "they sell 4 cookies",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 10
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theySellCookies(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103426000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the cookie count has been adjusted",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieCountHasBeenAdjusted()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.opentest4j.AssertionFailedError: Locator expected to have text: 1.0\nReceived: 1\n\nCall log:\n  - Assert \"hasText\" with timeout 5000ms\n  - waiting for locator(\"#money\").first()\n    9 × locator resolved to \u003cspan id\u003d\"money\"\u003e1\u003c/span\u003e\n      - unexpected value \"1\"\n\tat com.microsoft.playwright.impl.AssertionsBase.expectImpl(AssertionsBase.java:74)\n\tat com.microsoft.playwright.impl.AssertionsBase.expectImpl(AssertionsBase.java:50)\n\tat com.microsoft.playwright.impl.AssertionsBase.expectImpl(AssertionsBase.java:42)\n\tat com.microsoft.playwright.impl.LocatorAssertionsImpl.hasText(LocatorAssertionsImpl.java:295)\n\tat com.microsoft.playwright.assertions.LocatorAssertions.hasText(LocatorAssertions.java:1980)\n\tat org.example.cookieclicker.pages.GamePage.checkTheMoneyTotal(GamePage.java:75)\n\tat org.example.cookieclicker.steps.Stepdefs.moneyIsNow(Stepdefs.java:112)\n\tat ✽.Money is now 1.0(file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:11)\n",
+              "duration": 5005304000,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "Money is now 1.0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1.0",
+                  "offset": 13
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.moneyIsNow(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "Scenario background repeated for each scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 84887000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Open Cookie Clicker App",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.openCookieClickerApp()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 937000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Cookies have been cleared",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.cookiesHaveBeenCleared()"
+            },
+            "keyword": "* "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-07-29T07:44:27.567Z",
+        "before": [
+          {
+            "result": {
+              "duration": 250437000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.launchBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 67480000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.createContextAndPage(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Mary clicks the cookie button 25 times and sells 26 cookie(s)",
+        "description": "",
+        "id": "sell-cookies;\u003cplayername\u003e-clicks-the-cookie-button-\u003cclickcount\u003e-times-and-sells-\u003csellcookies\u003e-cookie(s);;7",
+        "after": [
+          {
+            "result": {
+              "duration": 10302000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closeContext(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 15647000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closePlaywright()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 146970000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Mary starts a game",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mary",
+                  "offset": 0
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.startsAGame(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 831714000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the cookie is clicked 25 times",
+            "match": {
+              "arguments": [
+                {
+                  "val": "25",
+                  "offset": 22
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieIsClickedTimes(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34346000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "they sell 26 cookies",
+            "match": {
+              "arguments": [
+                {
+                  "val": "26",
+                  "offset": 10
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theySellCookies(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.opentest4j.AssertionFailedError: Locator expected to have text: -1\nReceived: 25\n\nCall log:\n  - Assert \"hasText\" with timeout 5000ms\n  - waiting for locator(\"#cookies\").first()\n    9 × locator resolved to \u003cspan id\u003d\"cookies\"\u003e25\u003c/span\u003e\n      - unexpected value \"25\"\n\tat com.microsoft.playwright.impl.AssertionsBase.expectImpl(AssertionsBase.java:74)\n\tat com.microsoft.playwright.impl.AssertionsBase.expectImpl(AssertionsBase.java:50)\n\tat com.microsoft.playwright.impl.AssertionsBase.expectImpl(AssertionsBase.java:42)\n\tat com.microsoft.playwright.impl.LocatorAssertionsImpl.hasText(LocatorAssertionsImpl.java:295)\n\tat com.microsoft.playwright.assertions.LocatorAssertions.hasText(LocatorAssertions.java:1980)\n\tat org.example.cookieclicker.pages.GamePage.checkTheCookieTotal(GamePage.java:63)\n\tat org.example.cookieclicker.steps.Stepdefs.theCookieCountHasBeenAdjusted(Stepdefs.java:107)\n\tat ✽.the cookie count has been adjusted(file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:10)\n",
+              "duration": 5004544000,
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "the cookie count has been adjusted",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieCountHasBeenAdjusted()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 134000,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Money is now 0.0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0.0",
+                  "offset": 13
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.moneyIsNow(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "Scenario background repeated for each scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 87653000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Open Cookie Clicker App",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.openCookieClickerApp()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1028000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Cookies have been cleared",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.cookiesHaveBeenCleared()"
+            },
+            "keyword": "* "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-07-29T07:44:34.021Z",
+        "before": [
+          {
+            "result": {
+              "duration": 251702000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.launchBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 72379000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.createContextAndPage(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Heather clicks the cookie button 30 times and sells -1 cookie(s)",
+        "description": "",
+        "id": "sell-cookies;\u003cplayername\u003e-clicks-the-cookie-button-\u003cclickcount\u003e-times-and-sells-\u003csellcookies\u003e-cookie(s);;8",
+        "after": [
+          {
+            "result": {
+              "duration": 9792000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closeContext(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 24154000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closePlaywright()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 131674000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Heather starts a game",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Heather",
+                  "offset": 0
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.startsAGame(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 998694000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the cookie is clicked 30 times",
+            "match": {
+              "arguments": [
+                {
+                  "val": "30",
+                  "offset": 22
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieIsClickedTimes(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33606000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "they sell -1 cookies",
+            "match": {
+              "arguments": [
+                {
+                  "val": "-1",
+                  "offset": 10
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theySellCookies(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 106690000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the cookie count has been adjusted",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieCountHasBeenAdjusted()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.opentest4j.AssertionFailedError: Locator expected to have text: 0.0\nReceived: -0.25\n\nCall log:\n  - Assert \"hasText\" with timeout 5000ms\n  - waiting for locator(\"#money\").first()\n    9 × locator resolved to \u003cspan id\u003d\"money\"\u003e-0.25\u003c/span\u003e\n      - unexpected value \"-0.25\"\n\tat com.microsoft.playwright.impl.AssertionsBase.expectImpl(AssertionsBase.java:74)\n\tat com.microsoft.playwright.impl.AssertionsBase.expectImpl(AssertionsBase.java:50)\n\tat com.microsoft.playwright.impl.AssertionsBase.expectImpl(AssertionsBase.java:42)\n\tat com.microsoft.playwright.impl.LocatorAssertionsImpl.hasText(LocatorAssertionsImpl.java:295)\n\tat com.microsoft.playwright.assertions.LocatorAssertions.hasText(LocatorAssertions.java:1980)\n\tat org.example.cookieclicker.pages.GamePage.checkTheMoneyTotal(GamePage.java:75)\n\tat org.example.cookieclicker.steps.Stepdefs.moneyIsNow(Stepdefs.java:112)\n\tat ✽.Money is now 0.0(file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:11)\n",
+              "duration": 5005301000,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "Money is now 0.0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0.0",
+                  "offset": 13
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.moneyIsNow(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "Scenario background repeated for each scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 82544000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Open Cookie Clicker App",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.openCookieClickerApp()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1120000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Cookies have been cleared",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.cookiesHaveBeenCleared()"
+            },
+            "keyword": "* "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-07-29T07:44:40.754Z",
+        "before": [
+          {
+            "result": {
+              "duration": 252234000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.launchBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 69697000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.createContextAndPage(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Jason clicks the cookie button 35 times and sells B cookie(s)",
+        "description": "",
+        "id": "sell-cookies;\u003cplayername\u003e-clicks-the-cookie-button-\u003cclickcount\u003e-times-and-sells-\u003csellcookies\u003e-cookie(s);;9",
+        "after": [
+          {
+            "result": {
+              "duration": 4244000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closeContext(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 17361000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.closePlaywright()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 151619000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Jason starts a game",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jason",
+                  "offset": 0
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.startsAGame(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1149611000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the cookie is clicked 35 times",
+            "match": {
+              "arguments": [
+                {
+                  "val": "35",
+                  "offset": 22
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieIsClickedTimes(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NumberFormatException: For input string: \"B\"\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:662)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:778)\n\tat org.example.cookieclicker.steps.Stepdefs.theySellCookies(Stepdefs.java:101)\n\tat ✽.they sell B cookies(file:///Users/jenny/IdeaProjects/cookie-clicker/src/test/resources/features/SellCookies.feature:9)\n",
+              "duration": 220000,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "they sell B cookies",
+            "match": {
+              "arguments": [
+                {
+                  "val": "B",
+                  "offset": 10
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.theySellCookies(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29000,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "the cookie count has been adjusted",
+            "match": {
+              "location": "org.example.cookieclicker.steps.Stepdefs.theCookieCountHasBeenAdjusted()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26000,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Money is now 0.0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0.0",
+                  "offset": 13
+                }
+              ],
+              "location": "org.example.cookieclicker.steps.Stepdefs.moneyIsNow(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Sell Cookies",
+    "description": "",
+    "id": "sell-cookies",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/SellCookies.feature",
+    "tags": []
+  }
+]
