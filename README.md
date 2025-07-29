@@ -8,7 +8,6 @@
 ## Prerequisites
 - Java 21
 - Maven
-- Lombok IDE Plugin
 
 ## Features Implemented
 - [X] Playwright for Java

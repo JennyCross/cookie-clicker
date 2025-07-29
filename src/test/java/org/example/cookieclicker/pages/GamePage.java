@@ -5,6 +5,8 @@ import com.microsoft.playwright.Page;
 import com.microsoft.playwright.options.AriaRole;
 import org.hamcrest.MatcherAssert;
 import org.hamcrest.Matchers;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 
@@ -22,6 +24,8 @@ public class GamePage extends AbstractBasePage {
     Locator sellCookiesButton;
     Locator buyFactoriesInput;
     Locator buyFactoriesButton;
+
+    private static final Logger logger = LoggerFactory.getLogger(GamePage.class);
 
     public GamePage(Page page) {
         super(page);
@@ -88,6 +92,7 @@ public class GamePage extends AbstractBasePage {
             assertThat(cookieCount).not().hasText(String.valueOf(cookies));
             int newTotal = Integer.parseInt(cookieCount.innerText());
             MatcherAssert.assertThat(newTotal, Matchers.greaterThan(cookies));
+            logger.info("Cookie count increased automatically from {} to {}", cookies, newTotal);
             cookies = newTotal;
         }
     }

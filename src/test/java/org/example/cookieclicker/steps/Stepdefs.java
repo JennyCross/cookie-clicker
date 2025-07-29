@@ -7,12 +7,15 @@ import com.microsoft.playwright.Page;
 import com.microsoft.playwright.Playwright;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.example.cookieclicker.pages.GamePage;
 import org.example.cookieclicker.pages.HomePage;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -28,6 +31,8 @@ public class Stepdefs {
     private int cookieTotal = 0;
     private int soldCookies = 0;
 
+    private static final Logger logger = LoggerFactory.getLogger(Stepdefs.class);
+
     @Before
     public void launchBrowser() {
         playwright = Playwright.create();
@@ -36,13 +41,15 @@ public class Stepdefs {
     }
 
     @Before(order = 20000)
-    public void createContextAndPage() {
+    public void createContextAndPage(Scenario scenario) {
         context = browser.newContext();
         page = context.newPage();
+        logger.info("Starting scenario: {}", scenario.getName());
     }
 
     @After(order = 20000)
-    public void closeContext() {
+    public void closeContext(Scenario scenario) {
+        logger.info("Finished scenario: {}", scenario);
         context.close();
     }
 
