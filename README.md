@@ -56,10 +56,7 @@
 
 - [Cucumber HTML Report](./target/cucumber/results.html)
 - [Cucumber Timeline Report](./target/cucumber/timeline/index.html)
+- [Cucumber Results XML](./target/cucumber/results.xml)
 - [Cucumber Results JSON](./target/cucumber/results.json)
 - [Cucumber Rerun File](./target/cucumber/rerun.txt)
 - [Cucumber Usage JSON](./target/cucumber/usage.json)
-
-
-- [Extended Reports - Usage Report](./target/cucumber/cookie-clicker-usage.html)
-- [Extended Reports - Feature Overview Chart](./target/cucumber/cookie-clicker-feature-overview-chart.html)# cookie-clicker
